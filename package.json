@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "SET DEBUG=latihan-server:* && nodemon ./bin/www",
-    "dev": "nodemon ./bin/www",
-    "build": "npm run build"
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "@casl/ability": "^5.4.3",
