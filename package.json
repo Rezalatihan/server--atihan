@@ -5,7 +5,7 @@
   "scripts": {
     "start": "SET DEBUG=latihan-server:* && nodemon ./bin/www",
     "dev": "nodemon ./bin/www",
-    "build": "npm start build"
+    "build": "npm run build"
   },
   "dependencies": {
     "@casl/ability": "^5.4.3",
